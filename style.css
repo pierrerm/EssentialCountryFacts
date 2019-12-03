@@ -1,11 +1,130 @@
 /* CSS files add styling rules to your content */
 
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: 'Solway', serif;
+  color: #7477E8;
+}
+
+.frameSize {
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
+#issPicture {
+/*   padding-top: 50%;
+  padding-bottom: 50%;
+  padding-left: 80%;
+  padding-right: 80%; */
+}
+
+#glitchBtn {
+  z-index: 3;
+  position: fixed;
+  top: 15%;
+  right: 2%;
+}
+
+#sideBar {
+  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
+  width: 4%;
+  height: 100%;
+}
+
+#footer {
+  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
+  width: 100%;
+  height: 2%;
+}
+
+#fauxHeader {
+  z-index: 1;
+  background-color: #CBEBFF;
+  width: 100%;
+  text-align: center;
+}
+
+#header {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #7477E8;
+}
+
+#MainContainer {
+  min-height: 100%;
+  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin transition-all {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+#ButtonDiv {
+  z-index: 2;
+  width: 10%;
+  position: fixed;
+  top: 85%;
+  left: 42.5%;
+}
+
+.push_button {
+  font-family: "Inconsolata", monospace;
+  font-size: 120%;
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  color: #e7e7ea;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border: solid 2px #e7e7ea;
+  background: rgb(16, 24, 50);
+  text-align: center;
+  padding: 20px 30px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 9px 9px 0px #e7e7ea;
+  -moz-box-shadow: 9px 9px 0px #e7e7ea;
+  box-shadow: 9px 9px 0px #e7e7ea;
+}
+
+.push_button:hover {
+  color: #e7e7ea;
+  -webkit-box-shadow: 7px 7px 0px #e7e7ea;
+  -moz-box-shadow: 7px 7px 0px #e7e7ea;
+  box-shadow: 7px 7px 0px #e7e7ea;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.push_button:active {
+  -webkit-box-shadow: 2px 2px 0px #e7e7ea;
+  -moz-box-shadow: 2px 2px 0px #e7e7ea;
+  box-shadow: 2px 2px 0px #e7e7ea;
+  position: relative;
+  top: 7px;
+  left: 7px;
 }
