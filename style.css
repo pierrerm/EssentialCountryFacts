@@ -9,12 +9,11 @@ body {
   height: 100%;
   margin: 0;
   background-color: black;
-  font-family: helvetica, arial, sans-serif;
 }
 
 h1 {
   font-family: 'Solway', serif;
-  color: #7477E8;
+  color: #FFEC8C;
 }
 
 .frameSize {
@@ -23,51 +22,26 @@ h1 {
   height:100%;
 }
 
-#issPicture {
-/*   padding-top: 50%;
-  padding-bottom: 50%;
-  padding-left: 80%;
-  padding-right: 80%; */
-}
-
-#glitchBtn {
-  z-index: 3;
-  position: fixed;
-  top: 15%;
-  right: 2%;
-}
-
-#sideBar {
-  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
-  width: 4%;
-  height: 100%;
-}
-
-#footer {
-  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
-  width: 100%;
-  height: 2%;
-}
-
-#fauxHeader {
-  z-index: 1;
-  background-color: #CBEBFF;
+#titleHeader {
+  background-color: #0C5382;
   width: 100%;
   text-align: center;
+  padding-top: 1.3%;
+  padding-bottom: 0.5%;
 }
 
 #header {
-  z-index: 1;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #7477E8;
+  background-color: #FFEC8C;
+  padding-bottom: 1%;
 }
 
 #MainContainer {
   min-height: 100%;
-  background-image: url("https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FblackSky.jpg?v=1573762756954");
+  background-image: url("https://images.pexels.com/photos/1054220/pexels-photo-1054220.jpeg?cs=srgb&dl=background-blue-blue-sky-1054220.jpg&fm=jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,14 +52,6 @@ h1 {
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-}
-
-#ButtonDiv {
-  z-index: 2;
-  width: 10%;
-  position: fixed;
-  top: 85%;
-  left: 42.5%;
 }
 
 .push_button {

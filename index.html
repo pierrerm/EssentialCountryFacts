@@ -28,45 +28,18 @@
   </head>
   <body>
     <div id="header">
-      <div id="fauxHeader">
-        <h1 id="title">What ever the Weather!</h1>
+      <div id="titleHeader">
+        <h1 id="title">Wherever Weather!</h1>
       </div>
     </div>
 
     <div id="MainContainer">
-      <iframe
-        class="frameSize"
-        onmousedown="alertWindow"
-        id="gmap_canvas"
-        src="https://www.arcgis.com/home/webscene/viewer.html?viewpoint=cam:0,0,35000000;0,0&ui=min&zoom=false"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-      ></iframe>
+      
     </div>
 
-    <div id="ButtonDiv">
-      <a id="positionButton" class="push_button" onclick="findISS()"
-        >FIND THE ISS!</a
-      >
-    </div>
-
-    <div id="sideBar" style="position:fixed;top:0px;left:0px;z-index:0;" />
-
-    <div id="footer" style="position:fixed;bottom:0px;left:0px;z-index:1;" />
-
-    <div class="" style="position:fixed;top:48.5%;left:47%;z-index:1;">
-      <img
-        id="issPicture"
-        src="https://cdn.glitch.com/e8d1372a-0275-4dde-9d2d-46016981128e%2FissPicture.png?v=1573761165807"
-        width="10%"
-        style="display: none;"
-      />
-    </div>
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
-    <div id="glitchBtn" class="glitchButton"></div>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
