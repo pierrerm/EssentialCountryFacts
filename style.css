@@ -39,12 +39,24 @@ h1 {
   padding-bottom: 1%;
 }
 
-#MainContainer {
+#background {
   min-height: 100%;
   background-image: url("https://images.pexels.com/photos/1054220/pexels-photo-1054220.jpeg?cs=srgb&dl=background-blue-blue-sky-1054220.jpg&fm=jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#weatherContainer {
+  text-align: center;
+  padding: 15%;
+}
+
+#weatherBox {
+  padding: 5%;
+  border-radius: 1rem;
+  background: rgb(235,236,140,0.4);
+  text-align: center;
 }
 
 @mixin transition-all {
