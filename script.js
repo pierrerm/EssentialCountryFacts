@@ -14,7 +14,12 @@ function updateSuggestions(jsonObj) {
   var city = jsonObj[0].capital;
   console.log(city);
   document.getElementById("flag").src = jsonObj[0].flag;
-  document
+  document.getElementById("continent").innerHTML += jsonObj[0].subregion;
+  document.getElementById("capital").innerHTML = jsonObj[0].capital;
+  document.getElementById("population").innerHTML = jsonObj[0].population;
+  document.getElementById("demonym").innerHTML = jsonObj[0].demonym;
+  document.getElementById("language").innerHTML = jsonObj[0].languages[0].name;
+  document.getElementById("currency").innerHTML = jsonObj[0].currencies[0].code + ", "+ jsonObj[0].currencies[0].name;
   var countryInfo = document.getElementById("countryInfo");
   countryInfo.style = "display: inline-block;";
   // var gmap_canvas = document.getElementById("gmap_canvas");

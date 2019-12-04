@@ -16,6 +16,12 @@ h1 {
   color: #FFEC8C;
 }
 
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  color: #FFEC8C;
+}
+
 .frameSize {
   position: absolute;
   width: 100%;
