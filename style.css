@@ -61,7 +61,10 @@ h3 {
 }
 
 #infoBox {
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
   border-radius: 1rem;
   background: rgb(12,83,130,0.4);
   text-align: center;
