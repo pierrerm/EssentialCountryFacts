@@ -5,7 +5,7 @@ function searchLocation(){
   // var value = "https://www.metaweather.com/api/location/search/?query=" + location.value;
   // console.log(value);
   var jsonObj = $.getJSON(
-    "https://www.metaweather.com/api/location/search/?query=san",
+    "http://api.open-notify.org/astros.json",
     updateSuggestions
   );
 }
