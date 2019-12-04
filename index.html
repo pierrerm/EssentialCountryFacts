@@ -17,6 +17,16 @@
       href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
     <link
@@ -36,11 +46,16 @@
     <div id="background">
       <div id="weatherContainer">
         <div id="weatherBox">
-          <form action="/action_page.php">
-            First name: <input type="text" name="fname" /><br />
-            Last name: <input type="text" name="lname" /><br />
-            <input type="submit" value="Submit" />
-          </form>
+          <p>
+            <input id="location" placeholder="Enter a location" type="text" />
+            <a
+              href="#"
+              id="btn1"
+              onclick="fetchConvertData()"
+              class="btn btn-primary my-2 submitbutton"
+              ></a
+            >
+          </p>
         </div>
       </div>
     </div>

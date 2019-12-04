@@ -55,8 +55,22 @@ h1 {
 #weatherBox {
   padding: 5%;
   border-radius: 1rem;
-  background: rgb(235,236,140,0.4);
+  background: rgb(12,83,130,0.4);
   text-align: center;
+}
+
+#location {
+  width: 50%;
+}
+
+.submitbutton {
+  background: url("https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2FarrowIcon.png?v=1575421501606");
+  color: rgba(4, 16, 54, 0.97);
+  border-color: rgba(177, 240, 238, 0.94);
+  background-color: rgba(177, 240, 238, 0.94);
+  border-radius: 2rem;
+  width: 6rem;
+  height: 3.7rem;
 }
 
 @mixin transition-all {
