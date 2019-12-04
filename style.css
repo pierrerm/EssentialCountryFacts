@@ -16,10 +16,21 @@ h1 {
   color: #FFEC8C;
 }
 
+#countryName {
+  font-family: 'Solway', serif;
+  color: #0C5382;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  color: #0C5382;
+}
+
 h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 15px;
-  color: #000000;
+  color: #0C5382;
 }
 
 .frameSize {
@@ -66,7 +77,7 @@ h3 {
   padding-right: 5%;
   padding-bottom: 1%;
   border-radius: 1rem;
-  background: rgb(12,83,130,0.4);
+  background: rgb(230,230,230,0.4);
   text-align: center;
 }
 
