@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Wherever Weather!</title>
+    <title>Country Info!</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,6 +9,7 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
     ></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link
       href="https://fonts.googleapis.com/css?family=Solway&display=swap"
       rel="stylesheet"
@@ -39,7 +40,7 @@
   <body>
     <div id="header">
       <div id="titleHeader">
-        <h1 id="title">Wherever Weather!</h1>
+        <h1 id="title">Tell me about this Country!</h1>
       </div>
     </div>
 
@@ -50,7 +51,7 @@
             <p>
             <input
               id="location"
-              placeholder="Enter a location"
+              placeholder="Enter a country name or part of it..."
               type="text"
             />
             <a
@@ -62,8 +63,23 @@
             </a>
           </p>
           </div>
-          <div id="astonauts">
-            
+          <div id="countryInfo" style="display: none;">
+          <div class="w3-row  w3-padding-32">  
+                <div class="w3-half">
+                    <img src="https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2Fastronaut.png?v=1575496203079" class="w3-round w3-margin-bottom" alt="documents icon" style="width:70%">
+                </div>
+                <div class="w3-half">
+                    <a href="./PDFs/ObserverBriefing.pdf" open="ObserverBriefing.pdf">1. Observer briefing<br><br></a>
+              <a href="./PDFs/UserIntroduction.pdf" open="UserIntroduction.pdf">2. User introduction<br><br></a>
+              <a href="./PDFs/PretestQuestionnaire.pdf" open="PretestQuestionnaire.pdf">3. Pretest questionnaire<br><br></a>
+              <a href="./PDFs/TrainingDocument.pdf" open="TrainingDocument.pdf">4. Training document<br><br></a>
+              <a href="./PDFs/TestScript.pdf" open="TestScript.pdf">5. Test Script<br><br></a>
+              <a href="./PDFs/TaskDescription.pdf" open="TaskDescription.pdf">6. Task Description<br><br></a>
+              <a href="./PDFs/DataCollectionSheet.pdf" open="DataCollectionSheet.pdf">7. Data Collection Sheet<br><br></a>
+              <a href="./PDFs/PostTestQuestionnaire.pdf" open="PostTestQuestionnaire.pdf">8. Post-Test Questionnaire</a>
+
+                </div>
+            </div>
           </div>
         </div>
       </div>
