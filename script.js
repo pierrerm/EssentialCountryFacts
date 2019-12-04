@@ -1,17 +1,17 @@
 var positionButton = document.getElementById("positionButton");
 
 function searchLocation(){
-  // var location = document.getElementById("location");
-  // var value = "https://www.metaweather.com/api/location/search/?query=" + location.value;
-  // console.log(value);
+  var location = document.getElementById("location");
+  var value = location.value;
+  console.log(value);
   var jsonObj = $.getJSON(
-    "http://api.open-notify.org/astros.json",
+    "https://restcountries.eu/rest/v2/name/" + value,
     updateSuggestions
   );
 }
 
 function updateSuggestions(jsonObj) {
-  var city = jsonObj[0].title;
+  var city = jsonObj[0].capital;
   console.log(city);
   // var gmap_canvas = document.getElementById("gmap_canvas");
   // var latitude = jsonObj.latitude;
