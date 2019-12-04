@@ -64,7 +64,8 @@ h1 {
 }
 
 .submitbutton {
-  background: url("https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2FarrowIcon.png?v=1575421501606");
+  background-image: url("https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2FarrowIcon.png?v=1575421501606");
+  background-repeat: no-repeat;
   color: rgba(4, 16, 54, 0.97);
   border-color: rgba(177, 240, 238, 0.94);
   background-color: rgba(177, 240, 238, 0.94);
