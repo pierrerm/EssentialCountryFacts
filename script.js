@@ -13,7 +13,10 @@ function searchLocation(){
 function updateSuggestions(jsonObj) {
   var city = jsonObj[0].capital;
   console.log(city);
-  document.getElementById("countryInfo").style = "display: inline-block;";
+  document.getElementById("flag").src = jsonObj[0].flag;
+  document
+  var countryInfo = document.getElementById("countryInfo");
+  countryInfo.style = "display: inline-block;";
   // var gmap_canvas = document.getElementById("gmap_canvas");
   // var latitude = jsonObj.latitude;
   // var longitude = jsonObj.longitude;
