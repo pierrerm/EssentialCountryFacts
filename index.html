@@ -9,12 +9,15 @@
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
     ></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Solway&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -42,78 +45,64 @@
     </div>
 
     <div id="background">
-      <div id="weatherContainer">
-        <div id="weatherBox">
+      <div id="infoContainer">
+        <div id="infoBox">
           <div>
             <p>
-            <input
-              id="location"
-              placeholder="Enter a country name or part of it..."
-              type="text"
-            />
-            <a
-              href="#"
-              id="locationBtn"
-              class="btn locationButton push_button"
-              onclick="searchLocation()"
-            >
-            </a>
-          </p>
+              <input
+                id="location"
+                placeholder="Enter a country name or part of it..."
+                type="text"
+              />
+              <a
+                href="#"
+                id="locationBtn"
+                class="btn locationButton push_button"
+                onclick="searchLocation()"
+              >
+              </a>
+            </p>
           </div>
           <div id="countryInfo" style="display: none;">
-          <h2 id="countryName"/>
-          <div class="w3-row  w3-padding-8">  
-                <div class="w3-half">
-                    <img id="flag" src="https://restcountries.eu/data/bra.svg" class="w3-round w3-margin-bottom" alt="documents icon" style="width:70%">
-                </div>
-                <div class="w3-half">
-                  <p>
-                    <h3 id="continent">
-                      Continent:  
-                  </h3>
+            <div class="w3-row  w3-padding-16">
+              <div class="w3-half">
+                <img
+                  id="flag"
+                  src="https://restcountries.eu/data/bra.svg"
+                  class="w3-round w3-margin-bottom"
+                  alt="documents icon"
+                  style="width:70%"
+                />
+              </div>
+              <div class="w3-half">
+                <h2 id="countryName">
                   
-                  </p>
-                  <p>
-                    <h3>
-                      Capital:  
-                  </h3>
-                  <h3 id="capital">
-                    
-                  </h3>
-                  </p>
-                  <p>
-                    <h3>
-                      Population:  
-                  </h3>
-                  <h3 id="population">
-                    
-                  </h3>
-                  </p>
-                  <p>
-                    <h3>
-                      Demonym:  
-                  </h3>
-                  <h3 id="demonym">
-                    
-                  </h3>
-                  </p>
-                  <p>
-                    <h3>
-                      Main language:  
-                  </h3>
-                  <h3 id="language">
-                    
-                  </h3>
-                  </p>
-                  <p>
-                    <h3>
-                      Currency:  
-                  </h3>
-                  <h3 id="currency">
-                    
-                  </h3>
-                  </p>
-                </div>
+                </h2>
+              </div>
+            </div>
+            <div class="w3-row  w3-padding-8">
+              <div class="w3-half">
+                <h3 id="continent">
+                  Continent:  
+                </h3>
+                <h3 id="capital">
+                  Capital:  
+                </h3>
+                <h3 id="population">
+                  Population:  
+                </h3>
+              </div>
+              <div class="w3-half">
+                <h3 id="demonym">
+                  Demonym:  
+                </h3>
+                <h3 id="language">
+                  Main language:  
+                </h3>
+                <h3 id="currency">
+                  Currency:  
+                </h3>
+              </div>
             </div>
           </div>
         </div>

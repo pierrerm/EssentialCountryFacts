@@ -16,7 +16,7 @@ h1 {
   color: #FFEC8C;
 }
 
-h2 {
+h3 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
   color: #FFEC8C;
@@ -53,12 +53,12 @@ h2 {
   background-repeat: no-repeat;
 }
 
-#weatherContainer {
+#infoContainer {
   text-align: center;
   padding: 15%;
 }
 
-#weatherBox {
+#infoBox {
   padding: 5%;
   border-radius: 1rem;
   background: rgb(12,83,130,0.4);
@@ -88,13 +88,6 @@ h2 {
   width: 50%;
 }
 
-.submitbutton {
-  background-image: url("https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2FarrowIcon.png?v=1575421501606");
-  background-repeat: no-repeat;
-  color: rgba(4, 16, 54, 0.97);
-  border-color: rgba(177, 240, 238, 0.94);
-  background-color: rgba(177, 240, 238, 0.94);
-  border-radius: 2rem;
-  width: 6rem;
-  height: 3.7rem;
+#countryName: {
+  margin-top: 100%;
 }
