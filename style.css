@@ -59,6 +59,25 @@ h1 {
   text-align: center;
 }
 
+.push_button {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.push_button:hover {
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
+
+.locationButton {
+  background: url("https://cdn.glitch.com/c9cb54ef-c629-4d21-baf7-56bf073b6154%2FarrowButton.png?v=1575422484006");
+  border-color: rgba(0, 0, 0, 0);
+  width: 6%;
+  height: 3.5rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 #location {
   width: 50%;
 }
@@ -72,52 +91,4 @@ h1 {
   border-radius: 2rem;
   width: 6rem;
   height: 3.7rem;
-}
-
-@mixin transition-all {
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.push_button {
-  font-family: "Inconsolata", monospace;
-  font-size: 120%;
-  font-weight: bold;
-  position: relative;
-  width: 100%;
-  color: #e7e7ea;
-  display: block;
-  text-decoration: none;
-  margin: 0 auto;
-  border: solid 2px #e7e7ea;
-  background: rgb(16, 24, 50);
-  text-align: center;
-  padding: 20px 30px;
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  transition: all 0.1s;
-  -webkit-box-shadow: 9px 9px 0px #e7e7ea;
-  -moz-box-shadow: 9px 9px 0px #e7e7ea;
-  box-shadow: 9px 9px 0px #e7e7ea;
-}
-
-.push_button:hover {
-  color: #e7e7ea;
-  -webkit-box-shadow: 7px 7px 0px #e7e7ea;
-  -moz-box-shadow: 7px 7px 0px #e7e7ea;
-  box-shadow: 7px 7px 0px #e7e7ea;
-  position: relative;
-  top: 2px;
-  left: 2px;
-}
-
-.push_button:active {
-  -webkit-box-shadow: 2px 2px 0px #e7e7ea;
-  -moz-box-shadow: 2px 2px 0px #e7e7ea;
-  box-shadow: 2px 2px 0px #e7e7ea;
-  position: relative;
-  top: 7px;
-  left: 7px;
 }
