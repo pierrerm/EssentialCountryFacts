@@ -1,11 +1,11 @@
 var positionButton = document.getElementById("positionButton");
 
 function searchLocation(){
-  var location = document.getElementById("location");
-  var value = "https://www.metaweather.com/api/location/search/?query=" + location.value;
-  console.log(value);
+  // var location = document.getElementById("location");
+  // var value = "https://www.metaweather.com/api/location/search/?query=" + location.value;
+  // console.log(value);
   var jsonObj = $.getJSON(
-    value,
+    "https://www.metaweather.com/api/location/search/?query=san",
     updateSuggestions
   );
 }
@@ -18,6 +18,10 @@ function updateSuggestions(jsonObj) {
   // var longitude = jsonObj.longitude;
   // gmap_canvas.src = "https://www.arcgis.com/home/webscene/viewer.html?viewpoint=cam:" + latitude + "," + longitude + ",35000000;0,0&ui=min";
   // document.getElementById("issPicture").style.display = "inline-block";
+}
+
+function getWeather(){
+  searchLocation();
 }
 
 $(document).ready(function(){

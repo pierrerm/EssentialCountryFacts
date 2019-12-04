@@ -47,11 +47,17 @@
       <div id="weatherContainer">
         <div id="weatherBox">
           <p>
-            <input id="location" oninput="searchLocation()" placeholder="Enter a location" type="text" />
+            <input
+              id="location"
+              oninput="searchLocation()"
+              placeholder="Enter a location"
+              type="text"
+            />
             <a
               href="#"
               id="locationBtn"
               class="btn locationButton push_button"
+              onclick="getWeather()"
             >
             </a>
           </p>
