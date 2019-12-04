@@ -13,7 +13,7 @@ body {
 
 h1 {
   font-family: 'Solway', serif;
-  color: #FFEC8C;
+  color: 	#CDDBDE;
 }
 
 #countryName {
@@ -52,7 +52,7 @@ h3 {
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #FFEC8C;
+  background-color: rgb(230,230,230,0.4);;
   padding-bottom: 1%;
 }
 
